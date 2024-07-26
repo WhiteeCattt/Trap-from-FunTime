@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Трапки",
+		"description": "Данный аддон добавляет на ваш сервер трапки с ФанТайма!\n\nНастройка находится в файле §econfig.js§f\nПолучить трапку можно по команде §e/scriptevent take:trap§f\nАвтор: §eWhiteeCattt§f\nТелеграм-канал: §et.me/addons_pe",
+		"uuid": "352d5780-87b3-4a13-b52c-2db8a83187c0",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "e83b84f6-762f-4207-9510-bd676c7537ae",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "f7b93d7e-200a-40e6-aa5d-279cc7ba1d38",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://t.me/addons_pe"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		}
+	]
+}
